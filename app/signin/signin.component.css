@@ -1,0 +1,44 @@
+.login-wrapper{
+    margin: 100px auto;
+    width: 50rem;
+}
+div{
+    margin: auto;
+    background-color:rgb(32, 32, 32);
+   
+    border-color: rgb(68, 66, 66);
+}
+input{
+    margin-bottom: 2rem;
+}
+img{
+    width:400px;
+    height:300px;
+    border-style: solid;
+    bottom: auto;
+}
+input{
+    background-color:rgb(52, 50, 50);
+    color: white;
+
+}
+label{
+    color: white;
+}
+#a{
+    height: 300px;
+}
+#b{
+    height:350px;
+}
+h1{
+    color: rgb(152, 129, 129);
+    text-align: center;
+
+}
+
+
+p{
+
+margin-left: 100px;
+}

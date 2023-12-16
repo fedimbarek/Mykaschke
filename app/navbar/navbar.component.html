@@ -1,0 +1,42 @@
+<nav class="navbar navbar-expand-md navbar-dark bg-dark" >
+    <a class="navbar-brand" routerLink="/">My Kaschke</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarsExample04">
+        <ul class="navbar-nav mmr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" routerLink="/">accuil</a>
+            </li>
+            <li class="nav-item ">
+<a class="nav-link" routerLink="/toolbar">product</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" routerLink="/login" >admin</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" routerLink="/signin" >Sign In</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" routerLink="/signup" >Sign Up</a>
+                             </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/Magasin">Magasin</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/Electronic">Electronic</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" routerLink="/apropos">A propos</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item pointer">
+                <a (click)="logout()" class="nav-link">logout</a>
+            </li>
+
+        </ul>
+        
+    </div>
+</nav>
+

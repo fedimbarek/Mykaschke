@@ -1,0 +1,44 @@
+
+<div class="login-wrapper">
+    <div class="card">
+        <div class="card-body">
+          <form class="form-signin" [formGroup]="loginForm" (ngSubmit)="login()" >
+              <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+              <div class="card mb-3" style="max-width: 540px;" id="b">
+                <div class="row g-0">
+                  <div class="col-md-5">
+                  <img src="assets/user.png" class="img-fluid rounded-circle" alt="">
+                </div>
+                <div class="col-md-6">
+                  <div class="card mb-2" style="max-width: 540px;" id="a">
+                    <br>
+                    <div class="form-floating">
+              
+              <input formControlName="email" type="email" id="inputEmail" name="email" class="form-control"
+               placeholder="Email address" required autofocus ngModel>
+               <label for="inputEmail" class="sr-only">Email address</label>
+               <div class="alert alert-danger" role="alert" *ngIf="isFormInValid">
+                please fill all fields
+            </div></div>
+            <div class="form-floating">
+              <input formControlName="password" type="password" id="inputPassword" name="password" class="form-control" 
+              placeholder="password" required ngModel>
+              <label for="inputPassword" class="sr-only">Password</label>
+
+              <button class="w-100 btn btn-primary btn-block" type="submit" id="e">sign in</button>
+         
+
+         
+
+         
+         <div class="alert alert-danger" role="alert" *ngIf="areCredentialsInvalid">
+                   Invalid user or password
+          </div></div>
+              <p class="mt-5 mb-3 text-muted">&copy;2022-2023</p>   
+          </div></div></div></div>
+            </form>
+          
+      
+        </div>  
+      </div>
+</div> 
